@@ -1,4 +1,66 @@
+/*This is a note */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/*best not to use to start with*/
+#the-one {
+  color: greenyellow;
+}
+
+body {
+  background-color: lightgray;
+  max-height: 1000px;
+  margin: 0 auto;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5rem;
+}
+
+.new-color {
+  color: blue;
+  background-color: white;
+}
+
+h1 {
+  color: green;
+  background-color: white;
+}
+
 h1 {
   color: red;
-  background-color: lightblue;
+  background-color: white;
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: normal;
+  font-weight: normal;
+  /*letter-spacing: -0.2rem;*/
+  word-spacing: 0.3rem;
+}
+
+.standard-box {
+  background-color: pink;
+  width: 300px;
+  padding: 30px;
+  border: 20px solid greenyellow;
+  margin: 30px;
+  box-sizing: content-box;
+}
+
+.border-box {
+  background-color: pink;
+  width: 300px;
+  padding: 30px;
+  border: 20px solid greenyellow;
+  margin: 30px;
 }
